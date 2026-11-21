@@ -1,0 +1,38 @@
+SITE DE REFERÊNCIAS DO TCC
+
+CONTEÚDO
+- index.html: site completo com 25 referências; funciona mesmo sem internet para leitura, filtros e pesquisa.
+- gerar-qr.html: ferramenta para criar QR Code após publicar o site; usa biblioteca online.
+
+COMO VISUALIZAR
+1. Abra o arquivo index.html no navegador.
+2. Pesquise títulos, autores, periódicos ou anos; clique em links e copie referências.
+
+COMO PUBLICAR DE GRAÇA NO GITHUB PAGES
+1. Acesse https://github.com/ e entre ou crie uma conta.
+2. Crie um repositório PUBLIC (por exemplo, referencias-tcc).
+3. Clique em Add file > Upload files e envie index.html e gerar-qr.html (na RAIZ do repositório).
+4. Confirme o commit.
+5. Vá em Settings > Pages. Em Build and deployment, Source: Deploy from a branch; Branch: main; Folder: /(root); Save.
+6. O site poderá ficar em https://SEU-USUARIO.github.io/referencias-tcc/ (substitua pelo seu usuário e nome do repositório).
+7. Abra seu endereço público em um celular que não esteja logado na conta; confirme que funciona.
+
+COMO GERAR O QR CODE
+1. Depois que o site estiver publicado, abra https://SEU-USUARIO.github.io/referencias-tcc/gerar-qr.html
+2. O endereço público do site deve aparecer automaticamente no campo. Confira-o.
+3. Clique em GERAR QR CODE e BAIXAR PNG.
+4. Teste com pelo menos dois celulares antes de colocar no TCC ou na apresentação.
+
+OBSERVAÇÕES IMPORTANTES
+- O QR Code só será útil para os visitantes DEPOIS que o site estiver publicado com URL pública.
+- O site não precisa ser indexado no Google para funcionar.
+- As referências foram reproduzidas a partir do texto enviado, sem validação independente de metadados, DOI, ano, paginação ou adequação à ABNT.
+- As referências sem DOI ou URL na lista recebem link para uma pesquisa, não um texto completo inventado.
+- Os filtros indicam o tipo bibliográfico e NÃO indicam quais estudos integram o corpus da revisão narrativa.
+- A imagem de inspiração enviada foi incorporada ao cabeçalho como fornecida. Antes da publicação pública, confira se você tem direito de reproduzir essa imagem. Se não tiver, peça uma versão original/licenciada para substituí-la.
+- Para manter o QR Code válido, não mude o endereço público do site.
+- Tudo o que estiver em um repositório público poderá ser visto por outras pessoas.
+- O site não coleta nem envia termos digitados na caixa de pesquisa. A fonte de letras é carregada do Google Fonts quando há conexão.
+
+FONTES PARA PUBLICAÇÃO
+Documentação oficial: https://docs.github.com/en/pages/quickstart
